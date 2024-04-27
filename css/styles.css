@@ -338,7 +338,7 @@ position: relative;
     padding: 3%;   
 }
 
-.skill-column:hover {
+.skill-card:hover {
     transform: scale(1.04);
     border-width: 3px; 
     box-shadow: 5px 10px #888888;
