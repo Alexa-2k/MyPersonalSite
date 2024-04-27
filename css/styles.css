@@ -3,7 +3,9 @@
   padding: 0;
 }
 
-
+header {
+  background-color: #E4F9F5;
+}
 body {
   margin: 0;
   text-align: center;
@@ -100,6 +102,7 @@ animation-delay: 0.1s;
 
 .sun {
   position: absolute;
+  z-index: 3;
   top: 30px;
   right: 200px;
   animation-delay: 0.6s;
@@ -124,7 +127,81 @@ animation-delay: 0.1s;
   margin-right: -8px;
 }
 
-nav { 
+
+  /*color:  #11999E !important;*/
+
+/*.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color:#E4F9F5;
+  height: 500px;
+  color:  #11999E !important;
+  border-radius: 10px;
+}*/
+
+.topnav {
+  overflow: hidden;
+  background-color:transparent !important ;
+  position: sticky;
+  z-index: 2;
+  width: 150px;
+}
+
+.fa, .fa-bars {
+position: sticky;
+text-align: left !important;
+display: block;
+}
+.topnav #myLinks {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  text-align: left;
+} 
+
+li a {
+  display: block;
+  background-color:transparent !important;
+  padding:0;
+}
+#tope {
+  color: transparent !important;
+}
+#arriba {
+  text-align: left !important;
+}
+.topnav a {
+  text-align: left;
+  color: gray;
+  padding: 0;
+  text-decoration: none;
+  font-size: 15px;
+  display:block;
+  width: 150px;
+
+}
+
+.topnav a.icon {
+  float: left;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  color: #11999E;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent !important;
+}
+/*nav { 
     box-sizing: border-box;
     background-color:white;
     position: sticky;
@@ -153,9 +230,9 @@ nav a {
     text-decoration: none !important;
     transform: scale(1.15) ;
 }
-
+*/
 .colorverde {
-    color: green ;
+    color:#04AA6D;
 }
 
 .middle-container {
@@ -169,7 +246,8 @@ position: relative;
 }
 .carousel-control{
   overflow: visible;
-  background: none;
+  background-image: none !important;
+  
 }
 .intro {
   text-align: right;
@@ -188,16 +266,22 @@ position: relative;
     vertical-align: center;
     padding: 0;
     overflow: visible;
-    background: none;
+    background: transparent !important;
 }     
+
 
 .carousel-caption {
     color: grey;
-    position: relative;
-    float: left;
-    left: 0;
+    position: absolute;
+    /*float: left;*/
+    left: 10 px;
+    bottom: 0 px;
+    transform: translateY(-100%);
   }
-    
+
+.carousel-text {
+  color:#E4F9F5;
+}    
 #I-am {
     width: 30%;
     height: 100%;

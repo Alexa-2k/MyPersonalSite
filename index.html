@@ -22,15 +22,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-
+<header>
+   <a name="arriba"> </a>
+</header>
   <body>
-
+ 
     <main>
-     
+          
        <div class="fill top_container">
+       
          <img class="animate__animated animate__bounceInRight top_cloud" src="images/cloud1.png" alt="cloud-img">
-        <img class="animate__animated animate__bounceInUp sun" src="images/sun.png" alt="sun-img">
+         <img class="animate__animated animate__bounceInUp sun" src="images/sun.png" alt="sun-img">
         <h1 class="animate__animated animate__bounceInDown">I'm Lore.</h1>
         <h2 class="animate__animated animate__bounceInRight" >a <span class=" inblock animate__animated animate__bounceInUp, animate__rubberBand pro">pro</span> <span class="inblock animate__animated animate__bounceInRight">grammer.</span></h2>
         <img class="animate__animated animate__bounceInLeft bottom_cloud" src="images/cloud2.png" alt="cloud-img">
@@ -39,32 +43,47 @@
         
 
       </div>
-      <hr>
 
-  <nav class="flex-container">  
-        <div>
-        <a class="nav-link" href="#I-am">Who I am</a>
-        </div>
-        <div>
-        <a class="nav-link" href="#skills">Skills</a>
-        </div>
-        <div>
-        <a class="nav-link" href="#hobbies">Hobbies</a>
-        </div>
-        <div>
-        <a class="nav-link" href="#classes">Online classes</a>
-        </div>
-        <div>
-        <a class="nav-link" href="#contact">Contact</a>
-        </div>
-        <div>
-        <a class="nav-link colorverde" href="registro.html" color="green"> Register / Login</a>
-        </div>
-    </nav>
 
+<div class="topnav sticky">
+   
+   <a href="javascript:void(0);" class="icon" 
+   onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+  </a>
+    <div id="myLinks">
+<ul><br>
+  <li id = "tope">. </li>
+  <li id = "arriba"><a href="#arriba">Home</a></li>
+  <li><a href="#I-am">Who I am</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#hobbies">Hobbies</a></li>
+  <li><a  href="#classes">Online classes</a></li>
+  <li><a  href="#contact">Contact</a></li>
+ <li><a class="colorverde" href="registro.html" > Register / Login</a></li>
+</ul>
+
+  </div>
+  
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
  
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script>
+</div>
+
  <div class="middle-container ">
 <a name="I-am"></a>
+<hr>
   <div class="profile flex-container ">
         <a name="profile"></a>
            
@@ -97,12 +116,12 @@
         </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner " role="listbox">
         <div class="item active">
           <img src="images/fullstack developer2.jpg" alt="a FullStack developer.">
             
           <div class="carousel-caption">
-              <h3>a FullStack developer.</h3>
+              <h3 class="carousel-text">a FullStack developer.</h3>
               <p>(under c onstruction)</p>
             </div>
            
@@ -111,14 +130,14 @@
         <div class="item">
             <img src="images/qa-tester.jpg"   alt="QA analyst">
             <div class="carousel-caption">
-              <h3>a QA Analyst</h3>
+              <h3 class="carousel-text">a QA Analyst</h3>
             </div>
             </div>
         
           <div class="item">
               <img src="images/data analyst.jpg" alt="a Data analyst" >
               <div class="carousel-caption">
-              <h3>a Data analyst</h3>
+              <h3 class="carousel-text">a Data analyst</h3>
             </div>
             
           </div>
@@ -127,7 +146,7 @@
             
             <img src="images/eeng robot.png" alt="an Electronics Eng" >
           <div class="carousel-caption">
-              <h3>an Electronic Engineer</h3>
+              <h3 class="carousel-text">an Electronic Engineer</h3>
             </div>
  
           
@@ -136,7 +155,7 @@
           <div class="item">
             <img src="images/Noche de Observatorio1.jpg" alt="Astronomer">
            <div class="carousel-caption">
-              <h3>an Astronomer</h3>
+              <h3 class="carousel-text">an Astronomer</h3>
             </div>
  
 
@@ -145,17 +164,17 @@
         <div class="item">
              <img src="images/nomad3a.jpg" alt="a traveler">
             <div class="carousel-caption">
-              <h3>a traveler</h3>
+              <h3 class="carousel-text">a traveler</h3>
             </div>
   
         </div>
         <div class="item">
              <img src="images/travel03a.jpg" alt="a nomad">
-            <div class="carousel-caption">
-              <h3>a nomad</h3>
-            </div>
- 
-          </div>
+              <div class="carousel-caption">
+              <h3 class="carousel-text">a nomad</h3>
+        </div>
+        </div>
+       
          
                    
     </div>
@@ -173,6 +192,12 @@
  </div>
 </div>
 </div>
+<!-- ==== END OF CAROUSEL ==== -->  
+     
+
+<!-- ==== SKILLS SECTION ==== -->  
+   
+
    <a name="skills"></a>
         <hr>
        
