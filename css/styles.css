@@ -284,6 +284,7 @@ position: relative;
 }
 
 /* ======= SKILLS ======== */
+
 .flex-container {
 display: flex;
 width: 85%;
@@ -312,7 +313,7 @@ margin: 2% auto;
 }
   
 .skill-img {
-  width: 60%; 
+  width: 90%;
 }
 
 /* ====== HOBBIES ====== */
