@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+     <!-- STYLE & FONTS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="favicon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+      <!-- JS-->
+    <script src="./prueba.js"></script>
+
+    <title>Mis repositorios</title>
+</head>
+<body>
+
+<div class="topnav sticky">
+   
+   <a href="javascript:void(0);" class="icon" 
+   onclick="myFunction()">
+   <i class="fa fa-bars animate__animate animate__rotateIn"></i>
+  </a>
+    <div id="myLinks">
+<ul><br>
+  <li id = "tope">. </li>
+    <li><a href="index.html">Home <img src="images/UKflag.png">  </a></li>  
+  <li></li><a href="index-sp.html">Inicio <img src="images/SPflag.png"></a></li>
+  <li><a href="./index-sp.html#I-am">Quién soy</a></li>
+  <li><a href="./index-sp.html#skills">Skills</a></li>
+  <li><a href="./index-sp.html#hobbies">Hobbies</a></li>
+  <li><a  href="online-sp.html">Clases online</a></li>
+  <li><a  href="repos-sp.html">Mis Repositorios</a></li>
+  <li><a  href="./index-sp.html#contact">Contacto</a></li>
+ <li><a class="colorverde" href="register.html" >Registro / Login</a></li>
+</ul>
+
+  </div>
+  
+  <!-- "Menu hamburguesa" / "Bar icon" se alternan para mostrar  los links -->
+ 
+  <script>
+    /* Alterna entre mostrar u ocultar los links de navegacion cuando el usuario hace click en el ícono hamburguesa */
+    
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script>
+</div>
+
+
+<section class = "repositories container">
+  <a name="online"></a>
+  <div class="section-title">
+      <h2>Mis repositorios</h2>
+  </div>
+
+  <div class="repos grid-container">
+          
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/conferencia.png">
+        </div>
+        <div class="card-title">
+            <h3> ConferenciaBA</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Trabajo final curso PHP - Codo a codo 2022. </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/ConferenciaBA/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+ 
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/Batman.png">
+        </div>
+        <div class="card-title">
+            <h3> Batman</h3>
+        </div>
+       <div class="card-txt-div"> 
+          <p class = "card-txt"> TP1 JS Codo a codo React 2023. </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Batman/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+        
+          <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/JS-ej.png">
+        </div>
+        <div class="card-title">
+            <h3> Ejercicios JS</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Ejercicios JS sobre website - Codo a codo 2022. </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Ejercicios-JS/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+        
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/MiniAlura.png">
+        </div>
+        <div class="card-title">
+            <h3> Mini Alura</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Sitio responsivo para plataforma de cursos online, layout provisto. Oracle</p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Mini_Alura/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div> 
+
+</div> <!-- repos grid container -->
+
+<hr>
+
+ <div class="repos grid-container">
+          
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/encriptador.png">
+        </div>
+        <div class="card-title">
+            <h3> Encriptador</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Encriptador de texto. "Principiante en programación" Oracle Next Education </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Encriptador-ONE/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+ 
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/apeperia.png">
+        </div>
+        <div class="card-title">
+            <h3> Apeperia</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Archivos iniciales proyecto Apeperia Oracle ONE. </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Apeperia/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+        
+          <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/tasks-list.png">
+        </div>
+        <div class="card-title">
+            <h3> Tasks list</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Lista de tareas en JavaScript. "Manipulación del DOM". ORACLE ONE. </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Task-list/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+        
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/drumkit.png">
+        </div>
+        <div class="card-title">
+            <h3> Drumkit</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Drumkit project - DOM - Angela Yu Fullstack development course - Udemy</p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Drumkit/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div> 
+
+</div> <!-- repos grid container -->
+<hr>
+ <div class="repos grid-container">
+          
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/barberia.png">
+        </div>
+        <div class="card-title">
+            <h3> Barberia</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt">Sitio web para barbería ficticia. Oracle ONE </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Barberia/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+ 
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/form.png">
+        </div>
+        <div class="card-title">
+            <h3> Formulario en C#</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Formulario inscripción en C# - DSOO -Tecnicatura en Desarrollo de Software </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/FormIngreso/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+        
+          <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/televisor.png">
+        </div>
+        <div class="card-title">
+            <h3> Control televisor - C#</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Manejo de objetos en C# simulando un control de TV. DSOO Tecnicatura sup en desarrollo de Software </p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/DSOO.A2.Televisor/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div>
+        
+      <div class="repo-card">
+        <div class="card-img">
+          <img class="repo-img" src="images/repos/televisor.png">
+        </div>
+        <div class="card-title">
+            <h3> Empresa - C#</h3>
+        </div>
+        <div class="card-txt-div"> 
+          <p class = "card-txt"> Manejo de objetos en C#. Empresa y empleados. DSOO Tecnicatura sup en desarrollo de Software</p> 
+        </div>
+        <div>
+            <button type="button" class= "more"  onclick="window.location.href='https://github.com/Alexa-2k/Empresa/blob/main/README.md';">Repositorio</button>
+        </div>
+      </div> 
+
+</div> <!-- repos grid container -->
+<hr>
+
+
+
+
+  </section> 
+
+<div>
+
+  <img src = "images/construccion-removebg-preview.png">
+</div>
+
+    
+</body>
+</html>
