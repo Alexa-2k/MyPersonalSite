@@ -3,7 +3,9 @@
   padding: 0;
   background-color: var(--dark-mode-color);
 }
-
+body {
+  background-color: var(--dark-mode-color);
+  }
 .grid-container {
   display: grid;
   grid-auto-flow: column;
