@@ -437,7 +437,7 @@ transition: 0.6s;
   position: relative;
   color: var(--glow-color);
   cursor: pointer;
-  padding: 0.35em 1em;
+  padding: 0.5em 1.2em 0.5em 0.7em;
   border: 0.15em solid var(--glow-color);
   border-radius: 0.45em;
   background: none;
@@ -445,7 +445,9 @@ transition: 0.6s;
   font-family: "Montserrat", sans-serif;
   font-size: 1.3em;
   font-weight: normal;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.2em;
+  margin-top: 2em;
+  margin-bottom: 5em;
 
   -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
     0px 0px 0.5em 0px var(--glow-color);
@@ -637,13 +639,13 @@ footer {
 .footer-link {
   margin-right: 40px;
   position: relative;
-  top: 20px;
+  top: 10px;
 }
 
 .copyright-me {
   color: #EAF6F6;
   font-size: 0.75rem;
-  padding-top: 40px;
+  padding-top: 10px;
   margin: 0;
   position: relative;
 }
