@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="favicon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Schedule</title>
+</head>
+<body>
+
+    
+<div class="topnav sticky">
+   
+   <a href="javascript:void(0);" class="icon" 
+   onclick="myFunction()">
+   <i class="fa fa-bars animate__animate animate__rotateIn"></i>
+  </a>
+    <div id="myLinks">
+<ul><br>
+  <li id = "tope">. </li>
+  <li><a href="index.html">Home <img src="images/UKflag.png">  </a></li>  
+  <li></li><a href="index-sp.html">Inicio <img src="images/SPflag.png"></a></li>
+  <li><a href="online-sp.html">Clases en español</a></li>
+  <li><a  href="online-en.html">Classes in English</a></li>
+  <li><a  href="contact.html">Contact</a></li>
+ <li><a class="colorverde" href="register.html" >Register / Login</a></li>
+</ul>
+
+  </div>
+  
+  <script>
+    
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script>
+</div>
+<div class="section-title">
+
+<h2>Schedule </h2>
+
+</div>
+    <div id="schedule">
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FArgentina%2FBuenos_Aires&bgcolor=%230f0f0f&src=c3Vic2NyaXAubHJAZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTAzODg4NjM1NzIyNTI0MDM1NzY1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA4ODUyMDgxMzM3MTIyNTExNTM3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%237986CB&color=%237986CB&color=%230047a8&color=%23202124" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
