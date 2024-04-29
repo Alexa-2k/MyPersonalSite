@@ -760,8 +760,13 @@ margin-top: 1rem;
  #schedule {
   margin: 4rem auto;
  }
+ /* ==============================CANVAS ===============================*/
 
-.esfera {
-  transform: rotateX(360deg);
 
-}
+#myCanvasContainer {
+
+display: inline-block;
+ 
+ }
+
+
