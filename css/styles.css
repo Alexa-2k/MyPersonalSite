@@ -148,6 +148,9 @@ animation-delay: 0.1s;
   color: var(--span-color);
   margin-right: -8px;
 }
+.pro2{
+  margin-left: 1rem;
+}
 
 /* === HAMBURGER MENU === */
 .topnav {
@@ -284,6 +287,10 @@ background-color: var(--main-bg-color);
     margin:0;
     overflow: visible;
     background: transparent !important;
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
 }     
 .item {
     vertical-align: -20%;
@@ -653,35 +660,72 @@ footer {
 
 /* =========================== REPOS, ONLINE =================== */
 
-.repos {
-  width: 95%;
+.sample {
+  color: white;
+}
+
+.repos-main {
+  width: 75%;
+  flex-direction: row;
+  /*overflow: auto;*/
+  display:flex;
+   overflow-x: auto;
+   min-height: 45rem;
 }
 
 .repo-card {
   height: 38rem;
+  min-width: 25%;
   text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: lightgray;
     border-radius: 10px;
-    margin: 10%;
+    margin: 2%;
     padding: 1%;   
+
 }
 
-.repo-card:hover {
+.repo-card:hover, .repo-card1:hover {
     transform: scale(1.04);
     border-width: 3px; 
     box-shadow: 5px 10px #888888;
     transition: 0.6s;
 }
-  
+  .repo-card1 {
+  height: 38rem;
+  min-width: 25%;
+  text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightgray;
+    border-radius: 10px;
+   margin: 2%;
+  padding: 0;   }
+
+.repo-img1 {
+  width: 80%;
+  margin: 0.5rem auto;
+}
+
+.card-img1 {
+  height: 30%;
+  margin: 0.5rem auto;
+}
+
+.card-title1 {
+height: 6rem;
+margin-top: 3rem;
+}
+
+
 .repo-img {
-  width: 70%;
+  width: 90%;
 }
 
 .card-img {
   height: 40%;
-  margin: 7% auto;
+  margin: 3% auto;
 }
 
 .card-txt-div {
@@ -712,3 +756,12 @@ margin-top: 1rem;
    margin: 5% auto;
    font-size: 1.7rem;
  }
+
+ #schedule {
+  margin: 4rem auto;
+ }
+
+.esfera {
+  transform: rotateX(360deg);
+
+}
