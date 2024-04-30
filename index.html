@@ -28,8 +28,8 @@
    
 </header>
   <body>
-     <div>
-      <div class="fill top_container">
+   <div>
+   <div class="fill top_container">
        
        <img class="animate__animated animate__bounceInRight top_cloud" src="images/cloud1.png" alt="cloud-img">
        <img class="animate__animated animate__bounceInLeft bottom_cloud" src="images/cloud2.png" alt="cloud-img">
@@ -38,7 +38,7 @@
          <img class="animate__animated animate__bounceInUp sun" src="images/sun.png" alt="sun-img">
         <img class="mountains animate__animated animate__bounceInLeft" src="images/goals.png" alt="mountain-img"> 
 
-      </div>
+    </div>
 
 <div class="topnav sticky">
    
@@ -47,42 +47,47 @@
    <i class="fa fa-bars animate__animate animate__rotateIn"></i>
   </a>
     <div id="myLinks">
-<ul><br>
-  <li id = "tope">. </li>
-  <li><a href="index.html">Home <img src="images/UKflag.png">  </a></li>  
-  <li></li><a href="index-sp.html">Inicio <img src="images/SPflag.png"></a></li>
-  <li><a href="#I-am">Who I am</a></li>
-  <li><a href="#skills">Skills</a></li>
-  <li><a href="#hobbies">Hobbies</a></li>
-  <li><a  href="online-en.html">Online classes</a></li>
-  <li><a  href="repos-en.html">My Repositories</a></li>
-  <li><a  href="#repositories">Repositories sample</a></li>
-  <li><a  href="#contact">Contact</a></li>
- <li><a class="colorverde" href="register.html" >Register / Login</a></li>
-</ul>
-
-  </div>
+      <ul><br>
+        <li id = "tope">. </li>
+        <li><a href="index.html">Home <img src="images/UKflag.png">  </a></li>  
+        <li></li><a href="index-sp.html">Inicio <img src="images/SPflag.png"></a></li>
+        <li><a href="#I-am">Who I am</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a  href="online-en.html">Online classes</a></li>
+        <li><a  href="repos-en.html">My Repositories</a></li>
+        <li><a  href="#repositories">Repositories sample</a></li>
+        <li><a  href="#contact">Contact</a></li>
+      <li><a class="colorverde" href="register.html" >Register / Login</a></li>
+      </ul>
+   </div> <!-- MyLinks-->
   
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
  
   <script>
     /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
     
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-  </script>
-</div>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+      </script>
+</div> <!-- topnav sticky-->
 
- <section class="middle-container ">
-<a name="I-am"></a>
-<hr>
-  <div class="profile flex-container ">
+<div id="vacio">
+</div> 
+
+<section id="contenedor">
+  <a name="I-am"></a>
+  <div class="hr" ><hr> </div> 
+
+<section class="middle-container ">
+ 
+    <div class="profile flex-container ">
         <a name="profile"></a>
            
       <div id="I-am">
@@ -91,7 +96,7 @@ function myFunction() {
          <br>
          <img src="images\circled anime 192.png" alt="Lore-anime-pic">
          <h3 class="intro">I'm Lore, </h3>
-       </div>
+       </div> <!--I-am-->
 
          <div class="carousel-inner" id="Lore-carousel">
          
@@ -116,58 +121,57 @@ function myFunction() {
             
           <div class="carousel-caption">
               <h3 class="carousel-text">a FullStack developer.</h3>
-              
-            </div>       
-        </div>
+          </div> <!-- carousel-caption-->      
+        </div> <!-- item-active-->
 
         <div class="item">
             <img src="images/qa-tester.jpg"   alt="QA analyst">
             <div class="carousel-caption">
               <h3 class="carousel-text">a QA Analyst</h3>
-            </div>
-            </div>
+            </div> <!-- carousel-caption-->      
+        </div> <!-- item-->
         
         <div class="item">
             <img src="images/teach00.jpg"   alt="Teacher">
             <div class="carousel-caption">
               <h3 class="carousel-text">a Professor</h3>
-            </div>
-            </div>
+             </div> <!-- carousel-caption-->      
+        </div> <!-- item-->
 
           <div class="item">
               <img src="images/data analyst.jpg" alt="a Data analyst" >
               <div class="carousel-caption">
               <h3 class="carousel-text">a Data analyst</h3>
-            </div>
-          </div>
+            </div> <!-- carousel-caption-->      
+        </div> <!-- item-->
         
           <div class="item">
               <img src="images/eeng robot.png" alt="an Electronics Eng" >
             <div class="carousel-caption">
               <h3 class="carousel-text">an Electronic Engineer</h3>
-            </div>
-          </div>
+             </div> <!-- carousel-caption-->      
+        </div> <!-- item-->
                   
           <div class="item">
             <img src="images/Noche de Observatorio1.jpg" alt="Astronomer">
            <div class="carousel-caption">
               <h3 class="carousel-text">an Astronomer</h3>
-            </div>
-           </div> 
+           </div> <!-- carousel-caption-->      
+        </div> <!-- item-->
        
         <div class="item">
              <img src="images/nomad3a.jpg" alt="a traveler">
             <div class="carousel-caption">
               <h3 class="carousel-text">a traveler</h3>
-            </div>
-        </div>
+            </div> <!-- carousel-caption-->      
+        </div> <!-- item-->
 
         <div class="item">
              <img src="images/travel03a.jpg" alt="a nomad">
            <div class="carousel-caption">
               <h3 class="carousel-text">a nomad</h3>
-            </div>
-        </div>
+            </div> <!-- carousel-caption-->      
+        </div> <!-- item-->
                
     </div> <!--carousel inner list-->
 
@@ -186,20 +190,18 @@ function myFunction() {
 </section> <!-- section middle-->
 
 <!-- ==== END OF CAROUSEL ==== -->  
-     
 
 <!-- ==== SKILLS SECTION ==== -->  
-   <section class = "skills-container">
-       
+<section id = "skills-container">
    <a name="skills"></a>
-        
-     <div class="section-title">
-<hr>
-       <h2>My Skills.</h2>
-     </div>
-     <div class="skills grid-container">
           
-       <div class="skill-card">
+  <div class="section-title">
+     <div class="hr" ><hr> </div>
+       <h2>My Skills.</h2>
+  </div>
+  <div class="skills grid-container">
+         
+      <div class="skill-card">
          <img class="skill-img" src="images/coding-circled.png" alt="coding image from https://www.flaticon.com">
          <h3>Coding</h3>
          <p>HTML, CSS, JavaScript, Python, React, MySQL, PHP, C#, Java, Assembler </p>
@@ -217,143 +219,142 @@ function myFunction() {
          <p>I'm a Math, Physics, Chemistry, Astronomy, Spanish and Computer Science Professor</p>   
         </div>
 
-      </div>
-  </section> 
-<hr>
-<section class = "repositories-main container">
-  <a name="repositories"></a>
-  <div class="section-title">
-      <h2>My repositories</h2>
-  </div>
-<div >
-      <h3 class="sample">This is a sample. To see them all, please<a href="./repos-en.html" class="pro2">click here </h3>
-  </div>
+      </div> <!-- skills grid-container-->
+      <div class="hr" ><hr> </div>
+  </section> <!-- skills container-->
+<!-- ==================== REPOS =============-->
 
-  <div class="repos-main flex container">
+<section id="repositories-main">
+
+  <div id="repos-contenedor"> 
+      <a name="repositories"></a>
+      <div class="section-title">
+        <h2>My repositories</h2>
+        <h3 class="sample">This is a sample. To see them all, please<a href="./repos-en.html" class="pro2">click here </h3>
+      </div>
+
+      <div class="repos-main flex container">
           
       <div class="repo-card1">
-        <div class="card-img1">
-          <img class="repo-img1" src="images/repos/conferencia.png">
-        </div>
-        <div class="card-title1">
+          <div class="card-img1">
+            <img class="repo-img1" src="images/repos/conferencia.png">
+          </div>
+          <div class="card-title1">
             <h3> BA Conference </h3>
-        </div>
-        <div class="card-txt-div"> 
-          <p class = "card-txt"> Fullstack development in PHP final practice - Codo a codo 2022. </p> 
-        </div>
-        <div>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> Fullstack development in PHP final practice - Codo a codo 2022. </p> 
+          </div>
+          <div>
             <a href="https://github.com/Alexa-2k/ConferenciaBA/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
+          </div>
       </div>
  
       <div class="repo-card">
-        <div class="card-img">
-          <img class="repo-img" src="images/repos/Batman.png">
-        </div>
-        <div class="card-title">
-            <h3> Batman</h3>
-        </div>
-       <div class="card-txt-div"> 
-          <p class = "card-txt"> JS Practice 1 - Codo a codo React 2023. </p> 
-        </div>
-        <div>
-            <a href="https://github.com/Alexa-2k/Batman/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
-      </div>
-        
-          <div class="repo-card">
-        <div class="card-img">
-          <img class="repo-img" src="images/repos/JS-ej.png">
-        </div>
-        <div class="card-title">
-            <h3> JS exercises</h3>
-        </div>
-        <div class="card-txt-div"> 
-          <p class = "card-txt"> JS practices on website - Codo a codo 2022. </p> 
-        </div>
-        <div>
-            <a href="https://github.com/Alexa-2k/Ejercicios-JS/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
+          <div class="card-img">
+            <img class="repo-img" src="images/repos/Batman.png">
+          </div>
+          <div class="card-title">
+              <h3> Batman</h3>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> JS Practice 1 - Codo a codo React 2023. </p> 
+          </div>
+          <div>
+              <a href="https://github.com/Alexa-2k/Batman/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
+          </div>
       </div>
         
       <div class="repo-card">
-        <div class="card-img">
-          <img class="repo-img" src="images/repos/MiniAlura.png">
-        </div>
-        <div class="card-title">
-            <h3> Mini Alura</h3>
-        </div>
-        <div class="card-txt-div"> 
-          <p class = "card-txt"> Responsive site for online courses website, based on provided layout. Oracle</p> 
-        </div>
-        <div>
-            <a href="https://github.com/Alexa-2k/Mini_Alura/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
+          <div class="card-img">
+            <img class="repo-img" src="images/repos/JS-ej.png">
+          </div>
+          <div class="card-title">
+              <h3> JS exercises</h3>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> JS practices on website - Codo a codo 2022. </p> 
+          </div>
+           <div>
+             <a href="https://github.com/Alexa-2k/Ejercicios-JS/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
+            </div>
+      </div>
+        
+      <div class="repo-card">
+          <div class="card-img">
+            <img class="repo-img" src="images/repos/MiniAlura.png">
+          </div>
+          <div class="card-title">
+              <h3> Mini Alura</h3>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> Responsive site for online courses website, based on provided layout. Oracle</p> 
+          </div>
+          <div>
+              <a href="https://github.com/Alexa-2k/Mini_Alura/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
+          </div>
       </div> 
 
-<
-          
       <div class="repo-card">
-        <div class="card-img">
-          <img class="repo-img" src="images/repos/encriptador.png">
-        </div>
-        <div class="card-title">
-            <h3> Encrypter / Decrypter</h3>
-        </div>
-        <div class="card-txt-div"> 
-          <p class = "card-txt"> Text enccrypter. "Beginner in coding" course Oracle Next Education </p> 
-        </div>
-        <div>
-           <a href="https://github.com/Alexa-2k/Encriptador-ONE/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
+          <div class="card-img">
+            <img class="repo-img" src="images/repos/encriptador.png">
+          </div>
+          <div class="card-title">
+              <h3> Encrypter / Decrypter</h3>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> Text enccrypter. "Beginner in coding" course Oracle Next Education </p> 
+          </div>
+          <div>
+            <a href="https://github.com/Alexa-2k/Encriptador-ONE/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
+          </div>
       </div>
  
       <div class="repo-card">
-        <div class="card-img">
-          <img class="repo-img" src="images/repos/apeperia.png">
-        </div>
-        <div class="card-title">
-            <h3> Apeperia</h3>
-        </div>
-        <div class="card-txt-div"> 
-          <p class = "card-txt"> Initial files for Apeperia website project. Oracle ONE. </p> 
-        </div>
-        <div>
-            <a href="https://github.com/Alexa-2k/Apeperia/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
-      </div>
-        
-          <div class="repo-card">
-        <div class="card-img">
-          <img class="repo-img" src="images/repos/tasks-list.png">
-        </div>
-        <div class="card-title">
-            <h3> Task list</h3>
-        </div>
-        <div class="card-txt-div"> 
-          <p class = "card-txt"> Task list in JavaScript. "DOM manipulation". Oracle ONE. </p> 
-        </div>
-        <div>
-           <a href="https://github.com/Alexa-2k/Task-list/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
+          <div class="card-img">
+            <img class="repo-img" src="images/repos/apeperia.png">
+          </div>
+          <div class="card-title">
+              <h3> Apeperia</h3>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> First files Apeperia website project. Oracle ONE. </p> 
+          </div>
+          <div>
+              <a href="https://github.com/Alexa-2k/Apeperia/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
+          </div>
       </div>
         
       <div class="repo-card">
-        <div class="card-img">
-          <img class="repo-img" src="images/repos/drumkit.png">
-        </div>
-        <div class="card-title">
+          <div class="card-img">
+            <img class="repo-img" src="images/repos/tasks-list.png">
+          </div>
+          <div class="card-title">
+              <h3> Task list</h3>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> Task list in JavaScript. "DOM manipulation". Oracle ONE. </p> 
+          </div>
+          <div>
+            <a href="https://github.com/Alexa-2k/Task-list/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
+          </div>
+      </div>
+        
+      <div class="repo-card">
+          <div class="card-img">
+            <img class="repo-img" src="images/repos/drumkit.png">
+          </div>
+          <div class="card-title">
             <h3> Drumkit</h3>
-        </div>
-        <div class="card-txt-div"> 
-          <p class = "card-txt"> Drumkit project - DOM - Angela Yu Fullstack development course - Udemy</p> 
-        </div>
-        <div>
-           <a href="https://github.com/Alexa-2k/Drumkit/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
-        </div>
+          </div>
+          <div class="card-txt-div"> 
+            <p class = "card-txt"> Drumkit project - DOM - Angela Yu Fullstack development course - Udemy</p> 
+          </div>
+          <div>
+             <a href="https://github.com/Alexa-2k/Drumkit/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
+           </div>
       </div> 
-
-          
+  
       <div class="repo-card">
         <div class="card-img">
           <img class="repo-img" src="images/repos/barberia.png">
@@ -384,7 +385,7 @@ function myFunction() {
         </div>
       </div>
         
-          <div class="repo-card">
+      <div class="repo-card">
         <div class="card-img">
           <img class="repo-img" src="images/repos/televisor.png">
         </div>
@@ -392,7 +393,7 @@ function myFunction() {
             <h3> TV remote control - C#</h3>
         </div>
         <div class="card-txt-div"> 
-          <p class = "card-txt"> POO in C# TV remote simulation - B.S. in software development  </p> 
+          <p class = "card-txt"> POO in C# TV remote simulation. POO - B.S. in software development  </p> 
         </div>
         <div>
         <a href="https://github.com/Alexa-2k/DSOO.A2.Televisor/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
@@ -407,43 +408,43 @@ function myFunction() {
             <h3> Company & employees - C#</h3>
         </div>
         <div class="card-txt-div"> 
-          <p class = "card-txt"> POO in C#. Employees & Co. simulation. B.S. in software development</p> 
+          <p class = "card-txt"> POO in C#. Company and employees simulation. B.S. in software development</p> 
         </div>
         <div>
             <a href="https://github.com/Alexa-2k/Empresa/blob/main/README.md" target="_blank"> <button class= "more">Repository</button></a>
         </div>
       </div> 
-
-</div> <!-- repos grid container -->
-  </section> 
-
-
+  </div> <!-- repos main flex container -->
+  </div><!--repos-contenedor-->
+   <div class="hr" ><hr> </div> 
  <a name="hobbies"></a>
-        <hr>
- <section class = "hobbies-container">
+
+ </section> <!--repositories-main-->
+
+ <!-- ===============HOBBIES =================-->
+
+<section id = "hobbies-container">
    <div class="section-title"> 
     <h2>My Hobbies.</h2>
    </div>
-<div id="myCanvasContainer">
- <canvas width="600" height="500" id="myCanvas">
-  
-    <div id="tags">
-      <ul>
-        
-     <li><a href="https://planetario.buenosaires.gob.ar/telescopios" target="_blank"><img src="./images/telescope medium.png">Astronomy</a></li>
-        <li><a href="https://www.united.com/" target="_blank"> <img src="./images/baggage.png" >Travel</a></li>
-        <li><a href="https://www.easy.com.ar/" target="_blank"> <img src ="./images/package-box.png">Tools</a></li>
-        <li><a href="'https://elgourmet.com/" target="_blank"> <img src ="./images/cooking.png">Cooking</a></li>
-        <li><a href="https://ar.pinterest.com/vernicaliliana/marta-ballina/" target="_blank"><img src="./images/cake-decoration.png">Cake-decoration</a></li>
-        <li><a href="https://www.youtube.com/watch?v=l15PDRSTn7s" target="_blank" ><img src="./images/piano-ico.png">Piano</a></li>
-        </ul>
-    </div>
-    </canvas>
- </div>
+  <div id="myCanvasContainer">
+    <canvas width="600" height="500" id="myCanvas">
+        <div id="tags">
+          <ul>
+            <li><a href="https://planetario.buenosaires.gob.ar/telescopios/" target="_blank"><img src="./images/telescope medium.png">Astronomy</a></li>
+            <li><a href="https://www.united.com/" target="_blank"> <img src="./images/baggage.png" >Travel</a></li>
+            <li><a href="https://www.easy.com.ar/" target="_blank"> <img src ="./images/package-box.png">Tools</a></li>
+            <li><a href="'https://elgourmet.com/" target="_blank"> <img src ="./images/cooking.png">Cooking</a></li>
+            <li><a href="https://ar.pinterest.com/vernicaliliana/marta-ballina/" target="_blank"><img src="./images/cake-decoration.png">Cake-decoration</a></li>
+            <li><a href="https://www.youtube.com/watch?v=l15PDRSTn7s" target="_blank" ><img src="./images/piano-ico.png">Piano</a></li>
+          </ul>
+        </div>
+      </canvas>
+   </div> <!-- MyCanvascontainer-->
 
     <script src="./canvas/tagcanvas.min.js" type="text/javascript"></script>
-     <script src="./canvas/tagcanvas.js"></script>
-     <script src="./canvas/index.js"></script>
+    <script src="./canvas/tagcanvas.js"></script>
+    <script src="./canvas/index.js"></script>
 
    <!--
    <div class="hobbies-div flex-container">
@@ -467,28 +468,27 @@ function myFunction() {
         </div>
     </div> -->
            
-        <h3> This is what I <span class = "pro2">love</span> to do in my free time</h3>
-          <p class="hobbies-txt">Astronomy -with my own telescopes- traveling the world, collecting tools and fixing things, cooking, baking, cake decorating and playing the piano</p>
-     </sectrion>
-           <a name="contact"></a>
-        <hr>
-        <div class="contact-me">
-          <h3>Let's get In Touch</h3>
-          
-          <button type="button" class='glowing-btn'onclick="window.location.href='./contact.html';" ><span class='glowing-txt'>C<span class='faulty-letter'>o</span>ntact <span class='faulty-letter'>M</span>e  </span></button>
-        </div>
-      </section>
-    </main>
-    <footer>
+       <h3> This is what I<span class = "pro2">love</span> to do in my free time</h3>
+       <p class="hobbies-txt">Astronomy -with my own telescopes- traveling the world, collecting tools and fixing things, cooking, baking, cake decorating and playing the piano</p>
+   </section> <!-- hobbies container-->
 
-    
+   <section class="contact-me">
+       <a name="contact"></a>
+      <div class="hr" ><hr> </div>
+      <h3>Let's get In Touch</h3>
+      <button type="button" class='glowing-btn'onclick="window.location.href='./contact.html';" ><span class='glowing-txt'>C<span class='faulty-letter'>o</span>ntact <span class='faulty-letter'>M</span>e  </span></button>
+   </section> <!--contact-me-->
+
+<footer>
+   
        <a  href="https://www.linkedin.com/in/lorena-rachich/">LinkedIn  </a>
-      
+     
         <a  href="https://twitter.com/Alexa_2k">  Twitter  </a>
       
         <a  href="https://www.tortasgalacticas.com/">  </a>
         <p class="copyright-me">© 2024 Lorena Rachich.</p>
     
-    
-  </body>
+ </footer>
+ </section>  <!--contenedor-->
+ </body>
 </html>

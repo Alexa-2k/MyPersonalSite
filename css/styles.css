@@ -17,20 +17,19 @@
   --a-font-color: #E4F9F5;
  }
 header {
-  background-color: --main-bg-color;
+  background-color: var(--main-bg-color);
 }
 body {
   margin: 0;
   text-align: center;
-/*  font-family: 'Merriweather', serif;*/
-  background-color: var(--dark-mode-color);
-  color: #40514E;
+  background-color: var(--main-bg-color);
+ 
  }
 section {
-  background-color: var(--dark-mode-color);
+  background-color: var(--main-bg-color);
 }
 div {
-  background-color: var(--dark-mode-color);
+  background-color: var(--main-bg-color);
 }
 
 /* ===== DOTTED LINE ===== */
@@ -42,6 +41,10 @@ hr {
   margin: 45px auto;
   background-color: var(--main-bg-color) !important;
 }
+
+.hr {
+  padding: 1rem;
+}
 /* ======================== */
 
 h1 {
@@ -51,7 +54,7 @@ h1 {
   padding-top: 0;
   font-family: 'Sacramento', cursive;
   font-weight: bolder;
-  z-index: 5;
+  z-index: 3;
   font-size: 8rem;
   color: var(--main-h1h2-color);
   /*** rem= root M, being M the standard size of a 16px capital M ******/
@@ -91,10 +94,12 @@ a:hover {
 
 .top_container {
   background-color: var(--main-bg-color);
-  position: relative;
+  /*position: relative;*/
+  position:fixed;
   padding-top: 100px;
   text-align: center;
   height: 100vh;
+  width: 100%;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -149,7 +154,7 @@ animation-delay: 0.1s;
   margin-right: -8px;
 }
 .pro2{
-  margin-left: 0;
+  margin-left: 1rem;
 }
 
 /* === HAMBURGER MENU === */
@@ -157,7 +162,7 @@ animation-delay: 0.1s;
   overflow: hidden;
   background-color:transparent !important ;
   position: sticky;
-  z-index: 2;
+  z-index: 4;
   width: 80px;
 }
 /* HAMBURGER ICON */
@@ -186,9 +191,6 @@ li a {
   padding:0;
 }
 
-#arriba {
-  text-align: left !important;
-}
 .topnav a {
   text-align: left;
   color: white;
@@ -215,6 +217,15 @@ li a {
   top: 0;
   width: 100%;
   background-color: transparent !important;
+}
+/*
+.hr {
+  position: relative;
+
+}*/
+.contact-me {
+  position: relative;
+
 }
 
 /* ==== ORIGINAL HORIZONTAL NAV BAR (just in case) ======= */
@@ -252,10 +263,25 @@ nav a {
     color:#04AA6D;
 }
 
+#vacio {
+  width: 100%;
+  height: 800px;
+}
+
+#contenedor {
+  width:100%;
+  height: 1000px;;
+  position: relative;
+  z-index:2;
+  background-color: var(--main-bg-color)
+}
+
 .middle-container {
 height: 100vh; 
 position: relative;
 background-color: var(--main-bg-color);
+z-index:3;
+padding: 2rem;
 }
 
 .profile {
@@ -333,6 +359,11 @@ background-color: var(--main-bg-color);
 }
 
 /* ======= SKILLS ======== */
+#skills-container {
+background-color: var(--main-bg-color);
+position:relative;
+/*z-index:2;*/
+}
 
 .grid-container {
   display: grid;
@@ -366,6 +397,18 @@ background-color: var(--main-bg-color);
 }
 
 /* ====== HOBBIES ====== */
+#hobbies-container {
+position: relative;
+background-color: var(--main-bg-color);
+z-index:3;
+
+}
+
+.section-title {
+padding: 2rem;
+
+}
+
 .flex-container {
 display: flex;
 width: 90%;
@@ -660,11 +703,31 @@ footer {
 
 /* =========================== REPOS, ONLINE =================== */
 
+#repositories-main {
+ position: relative;
+ width: 100%;
+ background-color: var(--main-bg-color);
+ z-index:3;
+}
+
+#repos-contenedor {
+  position: relative;
+  width:100%;
+  z-index:3;
+ background-color: var(--main-bg-color);
+  
+}
+
+.section-title {
+   position: relative;
+  }
+
 .sample {
   color: white;
 }
 
 .repos-main {
+ position: relative;
   width: 75%;
   flex-direction: row;
   /*overflow: auto;*/
@@ -707,7 +770,9 @@ footer {
   width: 80%;
   margin: 0.5rem auto;
 }
-
+.online-img {
+  width: 75%;
+}
 .card-img1 {
   height: 30%;
   margin: 0.5rem auto;
@@ -718,13 +783,11 @@ height: 6rem;
 margin-top: 3rem;
 }
 
+
 .repo-img {
   width: 90%;
 }
 
-.online-img {
-  width: 75%;
-}
 .card-img {
   height: 40%;
   margin: 3% auto;
